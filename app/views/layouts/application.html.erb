@@ -24,10 +24,12 @@
 
   <body>
     <nav>
-      <%= link_to "Home", root_path %>
-      <%= button_to "Log out", session_path, method: :delete if authenticated? %>
-      <%= link_to "Sign up", new_registration_path %>
-      <%= link_to "Sign in", new_session_path %>
+      <div class="logincss">
+        <%= link_to "Home", root_path %>
+        <%= button_to "Log out", session_path, method: :delete if authenticated? %>
+        <%= link_to "Sign up", new_registration_path %>
+        <%= link_to "Sign in", new_session_path %>
+      </div>  
     </nav>
 
   <main>

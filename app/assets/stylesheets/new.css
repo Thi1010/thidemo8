@@ -1,0 +1,68 @@
+.newcss {
+    font-family: 'Arial', sans-serif;
+    margin: 50px auto;
+    max-width: 600px;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.newcss h1 {
+    color: #333;
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+}
+
+.newcss form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.newcss input, .newcss select, .newcss textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+    box-sizing: border-box;
+}
+
+.newcss input:focus, .newcss select:focus, .newcss textarea:focus {
+    border-color: #007BFF;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+.newcss button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+.newcss button:hover {
+    background-color: #0056b3;
+}
+
+.newcss a {
+    display: inline-block;
+    margin-top: 10px;
+    color: #555;
+    text-decoration: none;
+    font-size: 1rem;
+    text-align: center;
+}
+
+.newcss a:hover {
+    text-decoration: underline;
+    color: #007BFF;
+}
