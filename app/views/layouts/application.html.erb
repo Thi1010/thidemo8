@@ -23,12 +23,18 @@
   </head>
 
   <body>
-    <nav>
+    <nav class="navbar">
       <div class="logincss">
-        <%= link_to "Home", root_path %>
-        <%= button_to "Log out", session_path, method: :delete if authenticated? %>
-        <%= link_to "Sign up", new_registration_path %>
-        <%= link_to "Sign in", new_session_path %>
+        <nav class="homecss">
+          <%= link_to "Home", root_path %>
+        </nav>
+        <nav class="upincss">
+          <%= link_to "Sign up", new_registration_path %>
+          <%= link_to "Sign in", new_session_path %>
+        </nav>
+        <nav class="logout css">
+          <%= button_to "Log out", session_path, method: :delete if authenticated? %>
+        </nav>
       </div>  
     </nav>
 
